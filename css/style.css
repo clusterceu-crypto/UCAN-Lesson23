@@ -67,3 +67,7 @@
 .pdf-recovery[hidden]{display:none!important}.pdf-recovery p{margin:0 0 12px;font-size:15px}.pdf-recovery .pdf-recovery-summary{white-space:pre-line;overflow-wrap:anywhere;font-weight:700}.pdf-recovery .button{margin:0 10px 8px 0}
 @media(max-width:850px){.transfer-steps{grid-template-columns:1fr;gap:7px}.transfer-steps li{padding:11px 12px 11px 46px;text-align:left}.transfer-steps li::before{top:calc(50% - 11px);left:13px}.transfer-steps li:not(:last-child)::after{content:'↓';top:auto;bottom:-13px;left:50%;right:auto;font-size:17px}.transfer-areas{grid-template-columns:1fr}}
 @media(max-width:480px){.transfer-model{padding:15px}.pdf-recovery .button{width:100%;margin:0 0 8px}}
+
+/* L23 R11 owner-approved final two-action navigation. */
+#completion .route-bottom .next-lesson-active{margin:0;min-width:0;max-width:100%}
+@media(max-width:480px){#completion .route-bottom{flex-direction:column;align-items:stretch}#completion .route-bottom .button{width:100%;min-width:0}}
