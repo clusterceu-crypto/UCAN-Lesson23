@@ -71,3 +71,9 @@
 /* L23 R11 owner-approved final two-action navigation. */
 #completion .route-bottom .next-lesson-active{margin:0;min-width:0;max-width:100%}
 @media(max-width:480px){#completion .route-bottom{flex-direction:column;align-items:stretch}#completion .route-bottom .button{width:100%;min-width:0}}
+
+/* Link to the previous UCAN lesson. */
+.site-header .header-inner .ucan-previous-lesson{display:inline-flex;align-items:center;justify-content:center;gap:.35em;flex:0 0 auto;min-height:42px;box-sizing:border-box;padding:6px 10px;border:1px solid currentColor;border-radius:9px;text-decoration:none;font-size:.8rem;font-weight:700;line-height:1.2;color:var(--deep,#183d32)}
+.site-header .header-inner .ucan-previous-lesson:hover{text-decoration:underline}
+.site-header .header-inner .ucan-previous-lesson:focus-visible{outline:3px solid #e7a71f;outline-offset:2px}
+@media(max-width:680px){.site-header .header-inner{flex-wrap:wrap;column-gap:8px;row-gap:6px}}
